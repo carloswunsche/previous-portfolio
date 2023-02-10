@@ -83,7 +83,8 @@ input, select, textarea {
 	}
 
 	body {
-		padding-top: 3.5em;
+		/* padding-top: 3.5em; */
+		padding-top: 0;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -220,6 +221,11 @@ input, select, textarea {
 		footer > p {
 			font-size: 1.25em;
 		}
+
+/* Carl's tools */
+
+    .hidden {display: none;}
+	.nopad {padding: 0;}
 
 /* Container */
 
