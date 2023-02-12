@@ -135,10 +135,7 @@
         </header>
         <div class="row">
           <div class="col-12">
-            <form
-              method="post"
-              action="https://formspree.io/wunschecarlos@gmail.com"
-            >
+            <form method="post" action="https://formspree.io/f/mrgvpoal">
               <div class="row">
                 <div class="col-6 col-12-small">
                   <input type="text" name="name" id="name" placeholder="Name" />
@@ -167,6 +164,12 @@
                   ></textarea>
                 </div>
                 <div class="col-12">
+                  <!-- Subject included in email-->
+                  <input
+                    style="display: none"
+                    name="subject"
+                    value="Message from carloswunsche.github.io"
+                  />
                   <ul class="actions">
                     <li><input type="submit" value="Send Message" /></li>
                     <li>
@@ -221,5 +224,13 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script>
+      // This script clears the form after users submit it and click the go back button
+      window.onbeforeunload = () => {
+        for (const form of document.getElementsByTagName("form")) {
+          form.reset();
+        }
+      };
+    </script>
   </body>
 </html>
