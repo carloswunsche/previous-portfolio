@@ -21,7 +21,7 @@ Free for personal and commercial use under the <a href="https://html5up.net/lice
 
 ## Live preview
 
-Access the live preview [following this link.](https://carloswunsche.github.io)
+Access the live preview [following this link.](https://cw-previous-portfolio.netlify.app)
 
 ## Screenshot
 
